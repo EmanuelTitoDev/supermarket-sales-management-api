@@ -8,6 +8,19 @@ RESTful API developed with Spring Boot for comprehensive sales management in a s
 
 Develop a complete REST API that implements CRUD operations with JPA, entity relationships, error handling, and REST best practices, applying functional programming with lambdas and streams.
 
+## Project Approach
+
+While this project is based on the final assignment for the TodoCode Academy Spring Boot course, **I chose a different approach**.
+
+**My process:**
+1. Understanding the business model and rules through research.
+2. Identifying and abstracting the necessary entities.
+3. Applying normalization principles.
+4. Defining the relationships between entities.
+5. Classifying tables as Master, Parameter, or Transactional.
+
+I focused on designing a complete Entity-Relationship model before writing any code.
+
 ## Database Design
 
 The project begins with an exhaustive data model analysis, considering:
