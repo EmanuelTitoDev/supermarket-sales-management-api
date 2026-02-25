@@ -43,4 +43,8 @@ public class Product {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "Id_Iva", nullable = false)
     private Vat vat;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "Id_Proveedor", nullable = false)
+    private Supplier supplier;
 }
