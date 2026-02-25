@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.math.BigDecimal;
+
 @Entity
 @Table(name = "SG_T_Detalle_Inventario")
 @Getter
@@ -19,7 +21,7 @@ public class InventoryDetail {
     private Long id;
 
     @Column(name = "Precio_Unitario", nullable = false)
-    private Integer unitPrice;
+    private BigDecimal unitPrice;
 
     @Column(name = "Cantidad", nullable = false)
     private Integer quantity;
