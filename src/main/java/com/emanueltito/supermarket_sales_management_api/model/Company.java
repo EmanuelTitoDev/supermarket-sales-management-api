@@ -23,7 +23,7 @@ public class Company {
     @Column(name = "Nombre", nullable = false, length = 100)
     private String name;
 
-    @Column(name = "Ruc", nullable = false, unique = true, length = 50)
+    @Column(name = "Ruc", nullable = false, unique = true, length = 13)
     private String ruc;
 
     @Column(name = "Telefono", nullable = false, length = 15)
